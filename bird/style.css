@@ -1,0 +1,141 @@
+img {
+    width: 100%;
+}
+.ptahitext{
+text-align: center;
+
+color: green;
+
+}
+.ptahi{
+background-image: url(rdsnb.jpeg);
+}
+    
+.card-ptah{
+    background-color: #5a4020;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+ 
+}
+.p-title{
+    text-align: center;
+    color: #bfffbc;
+    border-bottom: 1px solid #C99E71;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.card-ptah .btn-details{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    left: 0;
+    margin: auto;
+    background-color: #08710c9f;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 5px;
+
+}
+.btn-details:hover{
+    background-color: #746555;
+
+}
+.about-ptah{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #323131b7;
+    padding: 10px;
+    transition: 0.5s;
+    overflow-y: auto;
+    color: #f1ffef;
+}
+.card{
+background-image: url(vlaznye-list-a-rastenia-monstera-deliciosa-v-sadu.jpg);
+width: auto;
+} 
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 50px;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #25b09b;
+  --_m: 
+    conic-gradient(#0000 10%,#000),
+    linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  -webkit-mask-composite: source-out;
+          mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 {to{transform: rotate(1turn)}}
+
+
+
+.preloader {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 100500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  display: inline-grid;
+  width: 90px;
+  aspect-ratio: 1;
+  animation: l3-0 5s steps(10) infinite;
+}
+.loader:before,
+.loader:after {
+  content:"";
+  grid-area: 1/1;
+}
+.loader:before {
+  clip-path: polygon(100% 50%,90.45% 79.39%,65.45% 97.55%,34.55% 97.55%,9.55% 79.39%,0% 50%,9.55% 20.61%,34.55% 2.45%,65.45% 2.45%,90.45% 20.61%,100% 50%,85.6% 24.14%,63.6% 8.15%,36.4% 8.15%,14.4% 24.14%,6% 50%,14.4% 75.86%,36.4% 91.85%,63.6% 91.85%,85.6% 75.86%,94% 50%,85.6% 24.14%);
+  background: #574951;
+}
+.loader:after {
+  background: #83988E;
+  clip-path: polygon(100% 50%,65.45% 97.55%,9.55% 79.39%,9.55% 20.61%,65.45% 2.45%);
+  margin: 27%;
+  translate: 46% 0;
+  transform-origin: right;
+  animation: l3-1 .5s linear infinite;
+}
+@keyframes l3-0 {to{rotate: 1turn}}
+@keyframes l3-1 {
+  0%{rotate:  18deg}
+  to{rotate: -18deg}
+}
+
+h1{
+     font-family: "Amatic SC", sans-serif;
+
+
+}
+
+p{
+    font-family: "Amatic SC", sans-serif;
+}
+h2{
+     font-family: "WDXL Lubrifont TC", sans-serif;
+}
